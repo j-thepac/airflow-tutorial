@@ -49,6 +49,17 @@ Check http://localhost:8080/
 - `docker-compose ps` - List containers
 - `docker-compose down` - Stop containers
 
+## Paths
+
+To create new dags:
+
+- stop the DAG if its already running
+- goto path ~/airflow-tutorial-master/examples/intro-example/dags/
+- create a new DAG 
+- goback to folder where u have docker-compose file (~/airflow-tutorial-master/)
+- $docker-compose up -d
+- Check http://localhost:8080/
+
 ## Other commands
 
 If you want to run airflow sub-commands, you can do so like this:
